@@ -122,8 +122,8 @@ order by 1 asc;
 with t5 as
 (select s.customer_id as customer, s.product_id, m.price, m.product_name,
 (case 
-	when product_name in ('curry','ramen') then price\*10
-    else price\*20
+	when product_name in ('curry','ramen') then price*10
+    else price*20
 end) as points
 from sales s inner join menu m
 on s.product_id = m.product_id)
@@ -141,7 +141,7 @@ on s.customer_id = m.customer_id),
 cte2 as
 (select customer, order_date, product_name, price,join_date,
 case 
-	when product_name = 'sushi' then price\*20
+	when product_name = 'sushi' then price*20
 	when datediff(order_date,join_date) <= 6 and datediff(order_date,join_date) >= 0 then price*20
     when datediff(order_date,join_date) >= 7 and product_name in ('curry','ramen') then price*10
     when datediff(order_date,join_date) < 0 then price*10
@@ -193,7 +193,7 @@ case
     else 'Y'
 end as member
  from master_table)
-select \*, 
+select *, 
 (case 
 when member <> 'N' then dense_rank() over (partition by customer_id, (case when member='Y' then 1 else null end) order by order_date asc)
 else null
