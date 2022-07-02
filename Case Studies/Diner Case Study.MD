@@ -10,7 +10,7 @@ This case study consists of 3 key datasets :
 - menu
 - members
 
-![Yelp Business Columns](https://github.com/ShrutiL1396/PySpark/blob/main/Yelp_Project/Yelp_Bizz.jpg) </br>
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/Case_study.PNG" width="600" height="400" />
 
 ## Case Study Questions and Solutions
 
@@ -160,7 +160,7 @@ group by 1;
 
 ## BONUS QUESTIONS 
 
-![Yelp Users Columns](https://github.com/ShrutiL1396/PySpark/blob/main/Yelp_Project/Yelp_rev.png) </br>
+![Bonus Question 1](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/Bonus1.PNG) </br>
 ```sql
 with master_table
 as
@@ -177,7 +177,7 @@ end as member
  from master_table;
 ```
 
-![Yelp Users Columns](https://github.com/ShrutiL1396/PySpark/blob/main/Yelp_Project/Yelp_rev.png) </br>
+![Bonus Question 2](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/Bonus2.PNG) </br>
 ```sql
 with master_table
 as
