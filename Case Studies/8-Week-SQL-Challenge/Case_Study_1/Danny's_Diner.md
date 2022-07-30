@@ -4,17 +4,6 @@
   <img width="400" height="350" src="https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/diner1.PNG">
 </p>
 
-## Description
-
-Working with SQL to find insighst from data is something which I really enjoy. I took up the fun Danny Ma's 8 weeks of SQL challenge and this is my first case study 
-pertaining to it. 
-
-This case study consists of 3 key datasets :
-- sales
-- menu
-- members
-
-<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Case_study.PNG" width="500" height="300" />
 
 ## Case Study Questions and Solutions
 
