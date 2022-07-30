@@ -22,4 +22,4 @@ You can inspect the entity relationship diagram and example data below.
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Case_study.PNG" width="500" height="300" />
 
 ## Questions and Solutions
-🍣🍚 [Case Study Questins and Solutions](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Danny's_Diner.md)
+🍣🍚 [Case Study Questions and Solutions](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Danny's_Diner.md)
