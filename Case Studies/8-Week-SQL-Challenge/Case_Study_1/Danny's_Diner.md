@@ -1,6 +1,8 @@
 <h1 align="center">Challenge Study # 1 - Danny's Diner</h1>
 
-
+<p align="center">
+  <img width="400" height="350" src="https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/diner1.PNG">
+</p>
 
 ## Description
 
@@ -12,7 +14,7 @@ This case study consists of 3 key datasets :
 - menu
 - members
 
-<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/Case_study.PNG" width="600" height="400" />
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Case_study.PNG" width="500" height="300" />
 
 ## Case Study Questions and Solutions
 
@@ -24,6 +26,8 @@ on s.product_id = m.product_id
 group by s.customer_id
 order by 1;
 ```
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans1.PNG" />
+
 -- 2. How many days has each customer visited the restaurant?
 ```sql
 select customer_id as customer, count(distinct order_date) as number_of_days_visited
@@ -31,6 +35,8 @@ from sales
 group by customer_id
 order by 1;
 ```
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans2.PNG" />
+
 -- 3. What was the first item from the menu purchased by each customer?
 ```sql
 with cte as 
@@ -42,6 +48,9 @@ from cte inner join menu m
 on cte.product_id = m.product_id
 where cte.prnk = 1;
 ```
+
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans3.PNG" />
+
 
 -- 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 ```sql
@@ -55,6 +64,8 @@ select product_name as Product, t1.maxprod as Number_of_times_ordered
 from t1 inner join menu 
 on t1.product_id = menu.product_id;
 ```
+
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans4.PNG" />
 
 -- 5. Which item was the most popular for each customer?
 ```sql
@@ -74,6 +85,8 @@ where item_rank = 1
 order by customer_id;
 ```
 
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans5.PNG" />
+
 -- 6. Which item was purchased first by the customer after they became a member?
 ```sql
 with t4 as
@@ -88,6 +101,8 @@ on t4.product_id = menu.product_id
 where cust_rnk = 1
 order by 1 asc;
 ```
+
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans6.PNG" />
 
 -- 7. Which item was purchased just before the customer became a member?
 ```sql
@@ -104,6 +119,8 @@ where cust_rnk = 1
 order by 1 asc;
 ```
 
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans7.PNG" />
+
 -- 8. What is the total items and amount spent for each member before they became a member?
 ```sql
 with t4 as
@@ -118,6 +135,7 @@ group by t4.customer_id
 order by 1 asc;
 ```
 
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans8.PNG" />
 
 -- 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 ```sql
@@ -133,6 +151,10 @@ select customer, sum(points) as total_points
 from t5
 group by 1;
 ```
+
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans9.PNG" />
+
+
 -- 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 ```sql
 with cte 
@@ -158,11 +180,14 @@ where order_date < '2021-02-01'
 group by 1;
 ```
 
-
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans10.PNG" />
 
 ## BONUS QUESTIONS 
 
-![Bonus Question 1](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/Bonus1.PNG) </br>
+-- Bonus Question 1
+
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Bonus1.PNG" width = "600" height = "800"/>
+
 ```sql
 with master_table
 as
@@ -179,7 +204,12 @@ end as member
  from master_table;
 ```
 
-![Bonus Question 2](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/Bonus2.PNG) </br>
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Bonus1ans.PNG" />
+
+-- Bonus Question 2
+
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Bonus2.PNG" width = "600" height = "800"/>
+ 
 ```sql
 with master_table
 as
@@ -202,3 +232,5 @@ else null
 end) as 'ranking'
 from next_tab
 ```
+
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Bonus2ans.PNG" />
