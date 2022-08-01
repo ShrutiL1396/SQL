@@ -100,4 +100,4 @@ json_table(trim(replace(json_array(toppings),",",'","')),
 
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Image_Set_2/pizza_clean.PNG" width="210" height="330"/>
 
-We are now ready to solve the case study starting with :bar_chart: [A. Pizza Metrics](https://github.com/ShrutiL1396/SQL/tree/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2) 
+We are now ready to solve the case study starting with :bar_chart: [A. Pizza Metrics](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/A_Pizza_Metrics.md) 
