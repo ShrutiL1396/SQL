@@ -130,4 +130,4 @@ order by pizza_volume_week desc;
 #### Result:- </br>
 <img src="https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Image_Set_2/a10.PNG" width="320" heigth="370"/>
 
-Solutions to the next section can be found here:- 🏃🧔 [B. Runner and Customer Experience](https://github.com/ShrutiL1396/SQL/tree/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2)
+Solutions to the next section can be found here:- 🏃🧔 [B. Runner and Customer Experience](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/B_Runner_Cust_Exp.md)
