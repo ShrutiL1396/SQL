@@ -27,8 +27,8 @@ The mapping of all the tables can be seen below in the Entity-Relationship Diagr
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Image_Set_2/dataset2.PNG" width="500" height="300" />
 
 ## Data Cleaning
-When going through the tables, there were a few issues with some tables and such these needed refinement and cleaning before they could be used to solve the case study. I have performed cleaning of a few tables to prepare them to answer the upcoming questions:-
-
+When going through the tables, there were a few issues with some tables and such these needed refinement and cleaning before they could be used to solve the case study. I have performed cleaning of a few tables to prepare them to answer the upcoming questions:- </br>
+:bookmark_tabs: [Data Cleaning](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Data_Cleaning.md)
 
 ## Questions and Solutions
 🍕[Case Study Questions and Solutions](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Danny's_Diner.md)
