@@ -105,4 +105,4 @@ group by order_id) t2;
 #### Result:- </br>
 <img src="https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Image_Set_2/d5.PNG" />
 
-Solutions to the Bonus Questions are here:- [Bonus Questions]
+Solutions to the Bonus Questions are here:- 🍕:runner: [Bonus Questions](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/E_Bonus_Questions.md)
