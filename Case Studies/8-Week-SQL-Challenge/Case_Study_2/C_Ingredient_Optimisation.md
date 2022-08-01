@@ -165,5 +165,5 @@ t1.pizza_name ;
 
 <img src="https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Image_Set_2/c5.PNG" width="800" height="360"/>
 
-Solutions to the next section can be found here :- [D. Pricing and Ratings]
+Solutions to the next section can be found here :- 💰⭐ [D. Pricing and Ratings](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/D_Pricing_Ratings.md)
 
