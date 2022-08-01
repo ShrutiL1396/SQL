@@ -102,4 +102,4 @@ on t.runner_id = s.runner_id;
 #### Result:- </br>
 <img src="https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Image_Set_2/b7.PNG" width="350" height="90"/>
 
-Solutions to the next section can be found at:- 🥩🍅🍄 [C. Ingredient Optimisation](https://github.com/ShrutiL1396/SQL/tree/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2)
+Solutions to the next section can be found at:- 🥩🍅🍄 [C. Ingredient Optimisation](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/C_Ingredient_Optimisation.md)
