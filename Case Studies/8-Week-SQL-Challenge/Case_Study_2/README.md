@@ -1,5 +1,9 @@
 <h1 align="center">CASE STUDY #2 - Pizza Runner</h1>
 
+<p align="center">
+  <img width="400" height="350" src="https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Image_Set_2/pizza.PNG">
+</p>
+
 ## Introduction
 Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)
 
