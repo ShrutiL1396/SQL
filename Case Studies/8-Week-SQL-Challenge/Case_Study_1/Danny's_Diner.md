@@ -7,7 +7,7 @@
 
 ## Case Study Questions and Solutions
 
--- 1. What is the total amount each customer spent at the restaurant?
+#### 1. What is the total amount each customer spent at the restaurant?
 ```sql
 select s.customer_id as customer,sum(m.price) as total_expense
 from sales s inner join menu m
@@ -17,7 +17,7 @@ order by 1;
 ```
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans1.PNG" />
 
--- 2. How many days has each customer visited the restaurant?
+#### 2. How many days has each customer visited the restaurant?
 ```sql
 select customer_id as customer, count(distinct order_date) as number_of_days_visited
 from sales
@@ -26,7 +26,7 @@ order by 1;
 ```
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans2.PNG" />
 
--- 3. What was the first item from the menu purchased by each customer?
+#### 3. What was the first item from the menu purchased by each customer?
 ```sql
 with cte as 
 (select customer_id as customer,product_id, dense_rank() over(partition by customer_id order by order_date)
@@ -41,7 +41,7 @@ where cte.prnk = 1;
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans3.PNG" />
 
 
--- 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+#### 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
 ```sql
 with t1 as
 (select product_id,count(product_id) as maxprod
@@ -56,7 +56,7 @@ on t1.product_id = menu.product_id;
 
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans4.PNG" />
 
--- 5. Which item was the most popular for each customer?
+#### 5. Which item was the most popular for each customer?
 ```sql
 with t2 as 
 (select customer_id, product_id, count(product_id) as item_count
@@ -76,7 +76,7 @@ order by customer_id;
 
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans5.PNG" />
 
--- 6. Which item was purchased first by the customer after they became a member?
+#### 6. Which item was purchased first by the customer after they became a member?
 ```sql
 with t4 as
 (select s.customer_id, product_id, order_date, dense_rank() over(partition by customer_id order 
@@ -93,7 +93,7 @@ order by 1 asc;
 
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans6.PNG" />
 
--- 7. Which item was purchased just before the customer became a member?
+#### 7. Which item was purchased just before the customer became a member?
 ```sql
 with t4 as
 (select s.customer_id, product_id, order_date, dense_rank() over(partition by customer_id order 
@@ -110,7 +110,7 @@ order by 1 asc;
 
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans7.PNG" />
 
--- 8. What is the total items and amount spent for each member before they became a member?
+#### 8. What is the total items and amount spent for each member before they became a member?
 ```sql
 with t4 as
 (select s.customer_id, product_id, order_date
@@ -126,7 +126,7 @@ order by 1 asc;
 
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans8.PNG" />
 
--- 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+#### 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 ```sql
 with t5 as
 (select s.customer_id as customer, s.product_id, m.price, m.product_name,
@@ -144,7 +144,7 @@ group by 1;
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/ans9.PNG" />
 
 
--- 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+#### 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 ```sql
 with cte 
 as
@@ -173,7 +173,7 @@ group by 1;
 
 ## BONUS QUESTIONS 
 
--- Bonus Question 1
+#### Bonus Question 1
 
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Bonus1.PNG" width = "600" height = "800"/>
 
@@ -195,7 +195,7 @@ end as member
 
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Bonus1ans.PNG" />
 
--- Bonus Question 2
+#### Bonus Question 2
 
 <img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1/Images/Bonus2.PNG" width = "600" height = "800"/>
  
