@@ -11,5 +11,5 @@ of working with real-world data which often needs cleaning.
 
 ## Case Studies and their Solutions
 - 🍜 [Case Study #1 - Danny's Diner](https://github.com/ShrutiL1396/SQL/tree/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_1)
-- 🍕 Case Study #2
+- 🍕 [Case Study #2 - Pizza Runner](https://github.com/ShrutiL1396/SQL/tree/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2)
 
