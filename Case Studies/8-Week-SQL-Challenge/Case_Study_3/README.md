@@ -1,7 +1,7 @@
 <h1 align="center">CASE STUDY #3 - Foodie-Fi</h1>
 
 <p align="center">
-  <img width="400" height="350" src="https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Image_Set_2/pizza.PNG">
+  <img width="400" height="400" src="https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_3/Image_set/foodie.PNG">
 </p>
 
 ## Introduction
@@ -20,7 +20,7 @@ The two tables used in the case study are:-
 
 The mapping of all the tables can be seen below in the Entity-Relationship Diagram
 
-<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_2/Image_Set_2/dataset2.PNG" width="500" height="300" />
+<img src = "https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_3/Image_set/tables.PNG" width="450" height="280" />
 
 
 ## Questions and Solutions
