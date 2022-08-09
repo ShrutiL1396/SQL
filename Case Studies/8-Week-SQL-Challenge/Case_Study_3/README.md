@@ -24,5 +24,5 @@ The mapping of all the tables can be seen below in the Entity-Relationship Diagr
 
 
 ## Questions and Solutions
-Let's proceed to the first section of this case study 🥑[A. Customer Journey]
+Let's proceed to the first section of this case study 🥑[A. Customer Journey](https://github.com/ShrutiL1396/SQL/blob/main/Case%20Studies/8-Week-SQL-Challenge/Case_Study_3/A_Customer_Journey.md)
 
